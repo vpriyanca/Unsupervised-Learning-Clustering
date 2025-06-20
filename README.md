@@ -46,11 +46,11 @@ The files should be cleaned, merged, and preprocessed before applying clustering
 
 ## Running the Code
 Open the project in a Jupyter environment or your preferred Python IDE. Run the scripts or notebook (e.g., ADL_Clustering.ipynb) in sequence to:
-1.Clean and preprocess data.
-2.Apply feature transformation.
-3.Train K-Means and K-Modes models.
-4.Visualize clusters using PCA.
-5.Evaluate performance using clustering metrics.
+1. Clean and preprocess data.
+2. Apply feature transformation.
+3. Train K-Means and K-Modes models.
+4. Visualize clusters using PCA.
+5. Evaluate performance using clustering metrics.
 
 ## Models
 The project implements two clustering algorithms:
@@ -95,10 +95,10 @@ Custom utility functions are included to streamline:
 
 ## Contributing
 Contributions to the ADL Clustering project are welcome. To contribute:
-1.Fork the repository.
-2.Create a new branch (git checkout -b feature-name).
-3.Commit your changes.
-4.Open a pull request.
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-name).
+3. Commit your changes.
+4. Open a pull request.
 
 For significant changes, please open an issue to discuss the proposed modification.
 
