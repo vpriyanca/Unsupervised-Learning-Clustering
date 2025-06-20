@@ -10,10 +10,10 @@ ADL Clustering is an unsupervised machine learning project aimed at recognizing 
 - Dimensionality reduction using Principal Component Analysis (PCA) for visualization.
 - Cluster evaluation using:
   - Homogeneity
-	- Completeness
-	- V-Measure
-	- Silhouette Coefficient
-	- Confusion Matrix
+  - Completeness
+  - V-Measure
+  - Silhouette Coefficient
+  - Confusion Matrix
 - Visual cluster plots using matplotlib and seaborn.
 - Comparison of clustering performance using Label Encoding and One-Hot Encoding.
 
