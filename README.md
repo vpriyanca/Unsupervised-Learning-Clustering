@@ -46,11 +46,11 @@ The files should be cleaned, merged, and preprocessed before applying clustering
 
 ## Running the Code
 Open the project in a Jupyter environment or your preferred Python IDE. Run the scripts or notebook (e.g., ADL_Clustering.ipynb) in sequence to:
-	1.	Clean and preprocess data.
-	2.	Apply feature transformation.
-	3.	Train K-Means and K-Modes models.
-	4.	Visualize clusters using PCA.
-	5.	Evaluate performance using clustering metrics.
+1.Clean and preprocess data.
+2.Apply feature transformation.
+3.Train K-Means and K-Modes models.
+4.Visualize clusters using PCA.
+5.Evaluate performance using clustering metrics.
 
 ## Models
 The project implements two clustering algorithms:
@@ -78,9 +78,9 @@ Although the Silhouette Coefficient suggests clear separation, the homogeneity a
 
 ## Visualizations
 The following plots help in interpreting model output:
-- # PCA Scatter Plots: Visual representation of clusters in reduced dimensions.
-- # Confusion Matrix: To analyze how predicted clusters align with actual activity labels.
-- # Cluster Centroids: To understand cluster centers in K-Modes.
+- PCA Scatter Plots: Visual representation of clusters in reduced dimensions.
+- Confusion Matrix: To analyze how predicted clusters align with actual activity labels.
+- Cluster Centroids: To understand cluster centers in K-Modes.
 
 ## Custom Functions
 Custom utility functions are included to streamline:
