@@ -34,6 +34,9 @@ pip install -r requirements.txt
 ````
 
 ## Usage
+
+This project is designed to analyze binary sensor data and apply unsupervised learning techniques to cluster and evaluate ADL patterns
+
 ## Dataset
 The Ordonez dataset consists of two users’ sensor-triggered activity logs spanning 35 days:
 - OrdonezA.txt
