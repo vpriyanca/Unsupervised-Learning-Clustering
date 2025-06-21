@@ -102,7 +102,7 @@ For significant changes, please open an issue to discuss the proposed modificati
 
 ## Contact
 - **Project Owner**: Priyanka Vyas
-- **Email**: pvyas2@kent.edu
+- **Email**: vpriyanka.sv@gmail.com
 
 ## Acknowledgments
 This project is made possible with the support of the following tools and libraries:
