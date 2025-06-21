@@ -35,14 +35,14 @@ pip install -r requirements.txt
 ## Usage
 This project is designed to analyze binary sensor data and apply unsupervised learning techniques to cluster and evaluate ADL patterns
 
-## Data Preparation
+### Data Preparation
 Ensure the sensor datasets are stored in the appropriate data/ directory. The project uses:
 - OrdonezA.csv: Sensor events from User A.
 - OrdonezB.csv: Sensor events from User B.
 
 The files should be cleaned, merged, and preprocessed before applying clustering techniques. Missing values should be handled carefully to avoid bias in clustering outcomes.
 
-## Running the Code
+### Running the Code
 Open the project in a Jupyter environment or your preferred Python IDE. Run the scripts or notebook (e.g., ADL_Clustering.ipynb) in sequence to:
 1. Clean and preprocess data.
 2. Apply feature transformation.
@@ -50,7 +50,7 @@ Open the project in a Jupyter environment or your preferred Python IDE. Run the 
 4. Visualize clusters using PCA.
 5. Evaluate performance using clustering metrics.
 
-## Models
+### Models
 The project implements two clustering algorithms:
 **KMeans Clustering** : Applied to scaled data with PCA for visualization.
 - Number of Clusters: 11
@@ -63,7 +63,7 @@ The project implements two clustering algorithms:
 - Categorical encoding using kmodes package
 - Evaluation via confusion matrix and cluster centroids
 
-## Evaluation Metrics
+### Evaluation Metrics
 | Metric                | Value  |
 |-----------------------|--------|
 | Homogeneity           | 0.092  |
@@ -74,19 +74,19 @@ The project implements two clustering algorithms:
 
 Although the Silhouette Coefficient suggests clear separation, the homogeneity and completeness metrics indicate poor clustering alignment with the actual activity labels. This reflects the challenges in applying unsupervised techniques on real-world noisy sensor data.
 
-## Visualizations
+### Visualizations
 The following plots help in interpreting model output:
 - **PCA Scatter Plots**: Visual representation of clusters in reduced dimensions.
 - **Confusion Matrix**: To analyze how predicted clusters align with actual activity labels.
 - **Cluster Centroids**: To understand cluster centers in K-Modes.
 
-## Custom Functions
+### Custom Functions
 Custom utility functions are included to streamline:
 - Data cleaning and transformation.
 - Encoding of categorical features.
 - Evaluation of clustering results.
  
-## Key Learnings
+### Key Learnings
 - Handling missing values is crucial to avoid bias and misclustering.
 - Unsupervised learning requires deep understanding of data structure since no labels are available during training.
 - Though supervised models may yield better accuracy when labels are present, unsupervised clustering reveals hidden patterns in unlabeled datasets.
