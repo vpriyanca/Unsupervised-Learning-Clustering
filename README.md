@@ -33,11 +33,9 @@ pip install -r requirements.txt
 ````
 
 ## Usage
-
 This project is designed to analyze binary sensor data and apply unsupervised learning techniques to cluster and evaluate ADL patterns
 
 ## Data Preparation
-
 Ensure the sensor datasets are stored in the appropriate data/ directory. The project uses:
 - OrdonezA.csv: Sensor events from User A.
 - OrdonezB.csv: Sensor events from User B.
@@ -54,13 +52,13 @@ Open the project in a Jupyter environment or your preferred Python IDE. Run the 
 
 ## Models
 The project implements two clustering algorithms:
-## KMeans Clustering : Applied to scaled data with PCA for visualization.
+**KMeans Clustering** : Applied to scaled data with PCA for visualization.
 - Number of Clusters: 11
 - Encoding Method: Label Encoding
 - StandardScaler used for normalization
 - PCA used for 2D visualization
 
-## K-Modes: Applied to categorical data using kmodes library.
+**K-Modes**: Applied to categorical data using kmodes library.
 - Number of Clusters: 11
 - Categorical encoding using kmodes package
 - Evaluation via confusion matrix and cluster centroids
@@ -78,9 +76,9 @@ Although the Silhouette Coefficient suggests clear separation, the homogeneity a
 
 ## Visualizations
 The following plots help in interpreting model output:
-- PCA Scatter Plots: Visual representation of clusters in reduced dimensions.
-- Confusion Matrix: To analyze how predicted clusters align with actual activity labels.
-- Cluster Centroids: To understand cluster centers in K-Modes.
+- **PCA Scatter Plots**: Visual representation of clusters in reduced dimensions.
+- **Confusion Matrix**: To analyze how predicted clusters align with actual activity labels.
+- **Cluster Centroids**: To understand cluster centers in K-Modes.
 
 ## Custom Functions
 Custom utility functions are included to streamline:
@@ -103,8 +101,8 @@ Contributions to the ADL Clustering project are welcome. To contribute:
 For significant changes, please open an issue to discuss the proposed modification.
 
 ## Contact
-- Project Owner: Priyanka Vyas
-- Email: pvyas2@kent.edu
+- **Project Owner**: Priyanka Vyas
+- **Email**: pvyas2@kent.edu
 
 ## Acknowledgments
 This project is made possible with the support of the following tools and libraries:
